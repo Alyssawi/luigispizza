@@ -1,21 +1,26 @@
 #top {background-image: url(pizza_banner2.jpg);  background-size:cover;
 height: 50%; width: 100%; box-sizing: border-box;
-text-align:center; font-size:  100px; font-family: sans-serif; color: #ffffff; padding-top: 5%; padding-bottom: 5%; }
-.left-col,.right-col {display:inline-block;  width: 49%; margin: 0;}
-.left-col {background-color:  #ccc;}
+text-align:center; font-size:  100px; font-family: sans-serif; color: #d6f5c6; 
+text-shadow: -5px 5px 0 #48ad16;
+padding-top: 5%; padding-bottom: 5%; }
 
 .box {display:flex; flex-grow:1; flex-direction:row; background-color:#f8eba3;
-justify-content: space-between;
-height:50px; width:100%;
+padding:0.5rem;
 }
 
 .menu {
-    padding-left: 10px; padding-top: 10px; padding-bottom: 10px; padding-right: 10px;
-    text-align:center; font-size:30px; font-family: sans-serif; color:#ffffff; 
+    text-align:center; font-size:2.5rem; font-family: sans-serif; color:#ffffff; 
+    width:3rem; padding:2rem,1rem; flex-grow:1; margin:0.375rem;
 }
 
-body,html{text-align:center; font-family:sans-serif;}
+body,html{text-align:center; font-family:sans-serif; font-size: large;}
 
 article,html{padding-left: 5%; padding-right: 5%;}
 
 h1{text-align:center;color:#48ad16;font-family: sans-serif;}
+
+a:link {font-weight:bold; text-decoration: none; color:#48ad16;}
+
+a:visited {font-weight:bold; color:#48ad16;}
+
+a:hover {background-color: #83b36b86;}
